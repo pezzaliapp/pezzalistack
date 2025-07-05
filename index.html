@@ -1,17 +1,116 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>pezzalistack – PWA Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" href="icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: monospace;
+      background-color: #000080;
+      color: lime;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      border: 2px solid lime;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #0011aa;
+    }
+    .card h2 {
+      color: #33ff00;
+      font-size: 18px;
+    }
+    .card p {
+      font-size: 13px;
+    }
+    .card a {
+      background: lime;
+      color: black;
+      text-decoration: none;
+      padding: 6px 12px;
+      font-weight: bold;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
   <h1>📟 pezzalistack</h1>
   <p>Benvenuto nella dashboard delle PWA di Alessandro Pezzali.</p>
-  <div id="app-list"></div>
-  <script src="dashboard.js"></script>
+  <div class="grid">
+    
+    <div class="card">
+      <h2>PriceXpress</h2>
+      <p>Calcola il prezzo minimo di vendita sostenibile di un prodotto.</p>
+      <a href="https://www.alessandropezzali.it/PriceXpress/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>MCINV</h2>
+      <p>Calcolatore inverso in stile retro.</p>
+      <a href="https://www.alessandropezzali.it/MCINV/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>C4_PEZ</h2>
+      <p>Versione Commodore 64 di PriceXpress.</p>
+      <a href="https://www.alessandropezzali.it/C4_PEZ/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>NETTIXpress</h2>
+      <p>Simulatore di ricavo netto.</p>
+      <a href="https://www.alessandropezzali.it/NETTIXpress/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>OPlus</h2>
+      <p>PWA per la gestione di ordini in formato Word/PDF.</p>
+      <a href="https://www.alessandropezzali.it/OPlus/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>CSVXpress</h2>
+      <p>Visualizzatore e gestore interattivo CSV con ricerca e filtri.</p>
+      <a href="https://www.alessandropezzali.it/CSVXpress/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>FINDNMATCH</h2>
+      <p>Trova e abbina dati da CSV o tabelle.</p>
+      <a href="https://www.alessandropezzali.it/FINDNMATCH/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>FastSalePlus</h2>
+      <p>Strumento di vendita veloce e interattivo.</p>
+      <a href="http://www.alessandropezzali.it/FastSalePlus/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>FleXiPrice</h2>
+      <p>Calcolatore avanzato di sconti e marginalità.</p>
+      <a href="http://www.alessandropezzali.it/FleXiPrice/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>LoSvizzero</h2>
+      <p>Simulatore di vendita con calcolo sconti multipli.</p>
+      <a href="http://www.alessandropezzali.it/LoSvizzero/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>indicizzazione</h2>
+      <p>Verifica e supporto all'indicizzazione web.</p>
+      <a href="http://www.alessandropezzali.it/indicizzazione/" target="_blank">Avvia</a>
+    </div>
+    <div class="card">
+      <h2>noleggio</h2>
+      <p>Gestione di noleggio e offerte.</p>
+      <a href="http://www.alessandropezzali.it/noleggio/" target="_blank">Avvia</a>
+    </div>
+  </div>
 </body>
 </html>
