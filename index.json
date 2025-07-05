@@ -1,0 +1,102 @@
+{
+  "apps": [
+    {
+      "name": "PriceXpress",
+      "description": "Calcola il prezzo minimo di vendita sostenibile di un prodotto, partendo da costi e margini.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/PriceXpress/",
+      "repo": "https://github.com/pezzaliapp/PriceXpress",
+      "icon": "pricexpress-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "calcolo",
+        "margine",
+        "vendita",
+        "PWA",
+        "economia"
+      ],
+      "created": "2025-07-05"
+    },
+    {
+      "name": "SwisSale",
+      "description": "Simulatore di margine, sconto e prezzo netto interattivo per vendite commerciali.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/SwisSale/",
+      "repo": "https://github.com/pezzaliapp/SwisSale",
+      "icon": "swissale-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "vendite",
+        "sconto",
+        "business",
+        "PWA"
+      ],
+      "created": "2025-06-21"
+    },
+    {
+      "name": "ThinkAir BLE",
+      "description": "Collega la Nicla Sense ME via BLE e mostra i dati in tempo reale in una dashboard.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/ThinkAir-Nicla/",
+      "repo": "https://github.com/pezzaliapp/ThinkAir-Nicla",
+      "icon": "thinkair-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "BLE",
+        "Nicla",
+        "Arduino",
+        "sensori",
+        "PWA"
+      ],
+      "created": "2025-04-20"
+    },
+    {
+      "name": "AccessTracker",
+      "description": "Traccia accessi anonimi ai tuoi documenti o dashboard e registra eventi in Firebase.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/AccessTracker/",
+      "repo": "https://github.com/pezzaliapp/AccessTracker",
+      "icon": "accesstracker-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "sicurezza",
+        "log",
+        "tracciamento",
+        "PWA"
+      ],
+      "created": "2025-04-07"
+    },
+    {
+      "name": "FleXiLift",
+      "description": "Controllo e monitoraggio in tempo reale di un sollevatore tramite ESP32 e Firebase.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/FleXiLift/",
+      "repo": "https://github.com/pezzaliapp/FleXiLift",
+      "icon": "flexilift-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "industria",
+        "firebase",
+        "iot",
+        "esp32"
+      ],
+      "created": "2025-03-30"
+    },
+    {
+      "name": "PayloadX",
+      "description": "Progetto open source per CubeSat modulari didattici, interfacciabili via PWA.",
+      "version": "1.0.0",
+      "url": "https://www.pezzaliapp.com/pezzalistack.html",
+      "repo": "https://github.com/pezzaliapp/PayloadX",
+      "icon": "payloadx-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "spazio",
+        "cubesat",
+        "educazione",
+        "open source"
+      ],
+      "created": "2025-06-01"
+    }
+  ]
+}

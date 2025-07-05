@@ -1,0 +1,15 @@
+{
+  "name": "pezzalistack",
+  "short_name": "pezzalistack",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0000AA",
+  "theme_color": "#00FF00",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
