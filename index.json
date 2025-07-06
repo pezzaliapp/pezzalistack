@@ -2,101 +2,159 @@
   "apps": [
     {
       "name": "PriceXpress",
-      "description": "Calcola il prezzo minimo di vendita sostenibile di un prodotto, partendo da costi e margini.",
+      "description": "Calcola il prezzo minimo di vendita sostenibile di un prodotto.",
       "version": "1.0.0",
       "url": "https://www.alessandropezzali.it/PriceXpress/",
-      "repo": "https://github.com/pezzaliapp/PriceXpress",
+      "repo": "",
       "icon": "pricexpress-192.png",
       "author": "Alessandro Pezzali",
       "tags": [
-        "calcolo",
-        "margine",
-        "vendita",
-        "PWA",
-        "economia"
-      ],
-      "created": "2025-07-05"
-    },
-    {
-      "name": "SwisSale",
-      "description": "Simulatore di margine, sconto e prezzo netto interattivo per vendite commerciali.",
-      "version": "1.0.0",
-      "url": "https://www.alessandropezzali.it/SwisSale/",
-      "repo": "https://github.com/pezzaliapp/SwisSale",
-      "icon": "swissale-192.png",
-      "author": "Alessandro Pezzali",
-      "tags": [
-        "vendite",
-        "sconto",
-        "business",
         "PWA"
       ],
-      "created": "2025-06-21"
+      "created": "2025-07-06"
     },
     {
-      "name": "ThinkAir BLE",
-      "description": "Collega la Nicla Sense ME via BLE e mostra i dati in tempo reale in una dashboard.",
+      "name": "MCINV",
+      "description": "Calcolatore inverso in stile retro.",
       "version": "1.0.0",
-      "url": "https://www.alessandropezzali.it/ThinkAir-Nicla/",
-      "repo": "https://github.com/pezzaliapp/ThinkAir-Nicla",
-      "icon": "thinkair-192.png",
+      "url": "https://www.alessandropezzali.it/MCINV/",
+      "repo": "",
+      "icon": "mcinv-192.png",
       "author": "Alessandro Pezzali",
       "tags": [
-        "BLE",
-        "Nicla",
-        "Arduino",
-        "sensori",
         "PWA"
       ],
-      "created": "2025-04-20"
+      "created": "2025-07-06"
     },
     {
-      "name": "AccessTracker",
-      "description": "Traccia accessi anonimi ai tuoi documenti o dashboard e registra eventi in Firebase.",
+      "name": "C4_PEZ",
+      "description": "Versione Commodore 64 di PriceXpress.",
       "version": "1.0.0",
-      "url": "https://www.alessandropezzali.it/AccessTracker/",
-      "repo": "https://github.com/pezzaliapp/AccessTracker",
-      "icon": "accesstracker-192.png",
+      "url": "https://www.alessandropezzali.it/C4_PEZ/",
+      "repo": "",
+      "icon": "c4pez-192.png",
       "author": "Alessandro Pezzali",
       "tags": [
-        "sicurezza",
-        "log",
-        "tracciamento",
         "PWA"
       ],
-      "created": "2025-04-07"
+      "created": "2025-07-06"
     },
     {
-      "name": "FleXiLift",
-      "description": "Controllo e monitoraggio in tempo reale di un sollevatore tramite ESP32 e Firebase.",
+      "name": "NETTIXpress",
+      "description": "Simulatore di ricavo netto.",
       "version": "1.0.0",
-      "url": "https://www.alessandropezzali.it/FleXiLift/",
-      "repo": "https://github.com/pezzaliapp/FleXiLift",
-      "icon": "flexilift-192.png",
+      "url": "https://www.alessandropezzali.it/NETTIXpress/",
+      "repo": "",
+      "icon": "nettixpress-192.png",
       "author": "Alessandro Pezzali",
       "tags": [
-        "industria",
-        "firebase",
-        "iot",
-        "esp32"
+        "PWA"
       ],
-      "created": "2025-03-30"
+      "created": "2025-07-06"
     },
     {
-      "name": "PayloadX",
-      "description": "Progetto open source per CubeSat modulari didattici, interfacciabili via PWA.",
+      "name": "OPlus",
+      "description": "PWA per la gestione di ordini in formato Word/PDF.",
       "version": "1.0.0",
-      "url": "https://www.pezzaliapp.com/pezzalistack.html",
-      "repo": "https://github.com/pezzaliapp/PayloadX",
-      "icon": "payloadx-192.png",
+      "url": "https://www.alessandropezzali.it/OPlus/",
+      "repo": "",
+      "icon": "oplus-192.png",
       "author": "Alessandro Pezzali",
       "tags": [
-        "spazio",
-        "cubesat",
-        "educazione",
-        "open source"
+        "PWA"
       ],
-      "created": "2025-06-01"
+      "created": "2025-07-06"
+    },
+    {
+      "name": "CSVXpress",
+      "description": "Visualizzatore e gestore interattivo CSV con ricerca e filtri.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/CSVXpress/",
+      "repo": "",
+      "icon": "csvxpress-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "FINDNMATCH",
+      "description": "Trova e abbina dati da CSV o tabelle.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/FINDNMATCH/",
+      "repo": "",
+      "icon": "findnmatch-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "FastSalePlus",
+      "description": "Strumento di vendita veloce e interattivo.",
+      "version": "1.0.0",
+      "url": "http://www.alessandropezzali.it/FastSalePlus/",
+      "repo": "",
+      "icon": "fastsaleplus-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "FleXiPrice",
+      "description": "Calcolatore avanzato di sconti e marginalit\u00e0.",
+      "version": "1.0.0",
+      "url": "http://www.alessandropezzali.it/FleXiPrice/",
+      "repo": "",
+      "icon": "flexiprice-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "LoSvizzero",
+      "description": "Simulatore di vendita con calcolo sconti multipli.",
+      "version": "1.0.0",
+      "url": "http://www.alessandropezzali.it/LoSvizzero/",
+      "repo": "",
+      "icon": "losvizzero-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "indicizzazione",
+      "description": "Verifica e supporto all'indicizzazione web.",
+      "version": "1.0.0",
+      "url": "http://www.alessandropezzali.it/indicizzazione/",
+      "repo": "",
+      "icon": "indicizzazione-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
+    },
+    {
+      "name": "noleggio",
+      "description": "Gestione di noleggio e offerte.",
+      "version": "1.0.0",
+      "url": "http://www.alessandropezzali.it/noleggio/",
+      "repo": "",
+      "icon": "noleggio-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "PWA"
+      ],
+      "created": "2025-07-06"
     }
   ]
 }
